@@ -7,7 +7,7 @@ public class AIMovement : MonoBehaviour
 
     [HideInInspector] public int destPoint = 0;
     [SerializeField] private float remainingDistance = 0.25f;
-    private bool reachedToEnd;
+    public bool reachedToEnd;
 
     #endregion
 

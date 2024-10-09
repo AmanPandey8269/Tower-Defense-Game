@@ -64,6 +64,7 @@ public class EnemyAI : AIMovement, IHealth
         nMAgent.speed = speed;
         destPoint = 0;
         currhealth = health;
+        reachedToEnd = false;
         gameObject.SetActive(false);
     }
 
