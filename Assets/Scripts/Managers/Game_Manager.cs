@@ -78,7 +78,7 @@ public class Game_Manager : MonoBehaviour
         else
         {
             uiManager.OpenWinPanel();
-            PlayerPrefs.SetInt("Player_Score", GetScore);
+            PlayerPrefs.SetInt("Player_Score", PlayerPrefs.GetInt("Player_Score")+ GetScore);
         }
     }
 

@@ -51,7 +51,7 @@ MonoBehaviour:
   gunHead: {fileID: 4000013600558346}
   dampingSpeed: 100
   targetTag: Enemy
-  shootingDistance: 10
+  shootingDistance: 12
   seekSpeed: 50
   rotateAngle: 70
 --- !u!114 &5637995652459657818
